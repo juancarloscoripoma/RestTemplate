@@ -27,7 +27,7 @@ public class RTemplateResource {
 
     @GetMapping(value = "/demo")
     public String getIndex() {
-        String url = "http://200.58.78.55:8202/api/enlace";
+        String url = "http://localhost:8202/api/enlace";
 // https://howtodoinjava.com/spring-restful/spring-restful-client-resttemplate-example/
 
         RestTemplate restTemplate = new RestTemplate();
